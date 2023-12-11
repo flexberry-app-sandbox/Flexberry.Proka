@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proka.Objects", "Objects/Proka.Objects.csproj", "f9ceae27-7aab-4a14-9c79-b3a43de1753d"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proka.Tests", "Tests/Proka.Tests.csproj", "7716bf04-c056-45b2-93d7-0fe4de547320"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proka.ODataBackend", "ODataBackend/Proka.ODataBackend.csproj", "e9ee9bc0-d870-4c7b-b9ac-34aec8360965"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proka.IntegrationTests", "IntegrationTests/Proka.IntegrationTests.csproj", "f8787b93-7e5a-4c11-9ffb-63c92db723cf"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		f9ceae27-7aab-4a14-9c79-b3a43de1753d.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		f9ceae27-7aab-4a14-9c79-b3a43de1753d.Debug|Any CPU.Build.0 = Debug|Any CPU
+		f9ceae27-7aab-4a14-9c79-b3a43de1753d.Release|Any CPU.ActiveCfg = Release|Any CPU
+		f9ceae27-7aab-4a14-9c79-b3a43de1753d.Release|Any CPU.Build.0 = Release|Any CPU
+		7716bf04-c056-45b2-93d7-0fe4de547320.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		7716bf04-c056-45b2-93d7-0fe4de547320.Debug|Any CPU.Build.0 = Debug|Any CPU
+		7716bf04-c056-45b2-93d7-0fe4de547320.Release|Any CPU.ActiveCfg = Release|Any CPU
+		7716bf04-c056-45b2-93d7-0fe4de547320.Release|Any CPU.Build.0 = Release|Any CPU
+		e9ee9bc0-d870-4c7b-b9ac-34aec8360965.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		e9ee9bc0-d870-4c7b-b9ac-34aec8360965.Debug|Any CPU.Build.0 = Debug|Any CPU
+		e9ee9bc0-d870-4c7b-b9ac-34aec8360965.Release|Any CPU.ActiveCfg = Release|Any CPU
+		e9ee9bc0-d870-4c7b-b9ac-34aec8360965.Release|Any CPU.Build.0 = Release|Any CPU
+		f8787b93-7e5a-4c11-9ffb-63c92db723cf.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		f8787b93-7e5a-4c11-9ffb-63c92db723cf.Debug|Any CPU.Build.0 = Debug|Any CPU
+		f8787b93-7e5a-4c11-9ffb-63c92db723cf.Release|Any CPU.ActiveCfg = Release|Any CPU
+		f8787b93-7e5a-4c11-9ffb-63c92db723cf.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proka-пункт-погруз-e",
+  "editForm": "i-i-s-proka-пункт-погруз-e",
+  "external": false,
+  "caption": "Пункт погруз",
+  "name": "IISProkaПунктПогрузL",
+  "className": "ПунктПогрузL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proka-пункт-погруз",
+      "modelProjection": "ПунктПогрузL"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proka-клиенты-e",
+  "editForm": "i-i-s-proka-клиенты-e",
+  "external": false,
+  "caption": "Клиенты",
+  "name": "IISProkaКлиентыL",
+  "className": "КлиентыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proka-клиенты",
+      "modelProjection": "КлиентыL"
+    }
+  ]
+}

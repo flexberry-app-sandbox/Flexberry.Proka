@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proka-товары-e",
+  "editForm": "i-i-s-proka-товары-e",
+  "external": false,
+  "caption": "Товары",
+  "name": "IISProkaТоварыL",
+  "className": "ТоварыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proka-товары",
+      "modelProjection": "ТоварыL"
+    }
+  ]
+}

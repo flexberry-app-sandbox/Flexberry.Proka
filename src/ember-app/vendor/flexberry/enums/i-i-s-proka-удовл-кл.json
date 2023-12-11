@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Proka",
+  "className": "УдовлКл",
+  "enumObjects": {
+    "Удовл": "Удовл",
+    "НеУдовл": "НеУдовл"
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proka-список-контей-e",
+  "editForm": "i-i-s-proka-список-контей-e",
+  "external": false,
+  "caption": "Список контей",
+  "name": "IISProkaСписокКонтейL",
+  "className": "СписокКонтейL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proka-список-контей",
+      "modelProjection": "СписокКонтейL"
+    }
+  ]
+}

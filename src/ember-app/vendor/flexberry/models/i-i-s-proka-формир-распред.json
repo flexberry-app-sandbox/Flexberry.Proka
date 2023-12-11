@@ -1,0 +1,210 @@
+﻿{
+  "name": "IISProkaФормирРаспред",
+  "modelName": "i-i-s-proka-формир-распред",
+  "className": "ФормирРаспред",
+  "nameSpace": "IIS.Proka",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номерРаспред",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "докумПоставки",
+      "relatedTo": "i-i-s-proka-докум-поставки",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "пунктПогруз",
+      "relatedTo": "i-i-s-proka-пункт-погруз",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "списокБарж",
+      "relatedTo": "i-i-s-proka-список-барж",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "списокКонтей",
+      "relatedTo": "i-i-s-proka-список-контей",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ФормирРаспредE",
+      "modelName": "i-i-s-proka-формир-распред",
+      "attrs": [
+        {
+          "name": "номерРаспред",
+          "caption": "Номер распред",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ФормирРаспредL",
+      "modelName": "i-i-s-proka-формир-распред",
+      "attrs": [
+        {
+          "name": "номерРаспред",
+          "caption": "Номер распред",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ДокумПоставки",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "ДокумПоставки.Клиенты",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "наимЗаказа",
+                  "caption": "",
+                  "hidden": false,
+                  "index": 2
+                },
+                {
+                  "name": "пунктПостав",
+                  "caption": "",
+                  "hidden": false,
+                  "index": 3
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "клиенты",
+              "relatedTo": "i-i-s-proka-клиенты",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [],
+          "index": -1,
+          "type": "default",
+          "caption": "",
+          "name": "докумПоставки",
+          "relatedTo": "i-i-s-proka-докум-поставки",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "СписокБарж",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерБаржи",
+              "caption": "",
+              "hidden": false,
+              "index": 4
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "",
+          "name": "списокБарж",
+          "relatedTo": "i-i-s-proka-список-барж",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "ПунктПогруз",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наим",
+              "caption": "Наим",
+              "hidden": false,
+              "index": 5
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Наим",
+          "name": "пунктПогруз",
+          "relatedTo": "i-i-s-proka-пункт-погруз",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "СписокКонтей",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наимКонтей",
+              "caption": "Наим контей",
+              "hidden": false,
+              "index": 6
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Наим контей",
+          "name": "списокКонтей",
+          "relatedTo": "i-i-s-proka-список-контей",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

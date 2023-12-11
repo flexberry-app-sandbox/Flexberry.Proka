@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proka-формир-распред-e",
+  "editForm": "i-i-s-proka-формир-распред-e",
+  "external": false,
+  "caption": "Формир распред",
+  "name": "IISProkaФормирРаспредL",
+  "className": "ФормирРаспредL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proka-формир-распред",
+      "modelProjection": "ФормирРаспредL"
+    }
+  ]
+}

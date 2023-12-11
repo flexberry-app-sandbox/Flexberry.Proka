@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Товары",
+  "name": "IISProkaТоварыE",
+  "className": "ТоварыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proka-товары",
+      "modelProjection": "ТоварыE"
+    }
+  ]
+}

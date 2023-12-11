@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Пункт погруз",
+  "name": "IISProkaПунктПогрузE",
+  "className": "ПунктПогрузE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proka-пункт-погруз",
+      "modelProjection": "ПунктПогрузE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proka-организация-e",
+  "editForm": "i-i-s-proka-организация-e",
+  "external": false,
+  "caption": "Организация",
+  "name": "IISProkaОрганизацияL",
+  "className": "ОрганизацияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proka-организация",
+      "modelProjection": "ОрганизацияL"
+    }
+  ]
+}

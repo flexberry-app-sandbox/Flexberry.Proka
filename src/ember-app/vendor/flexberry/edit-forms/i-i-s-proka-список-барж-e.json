@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Список барж",
+  "name": "IISProkaСписокБаржE",
+  "className": "СписокБаржE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proka-список-барж",
+      "modelProjection": "СписокБаржE"
+    }
+  ]
+}

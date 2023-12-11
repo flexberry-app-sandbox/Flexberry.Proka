@@ -1,0 +1,85 @@
+﻿{
+  "applicationCaption": "Proka",
+  "applicationTitle": "Proka",
+  "items": [
+    {
+      "link": null,
+      "menuName": "proka",
+      "caption": "Proka",
+      "title": "Proka",
+      "children": [
+        {
+          "link": "i-i-s-proka-формир-распред-l",
+          "menuName": null,
+          "caption": "Формир распред",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proka-список-контей-l",
+          "menuName": null,
+          "caption": "Список контей",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proka-организация-l",
+          "menuName": null,
+          "caption": "Организация",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proka-форм-рез-пост-l",
+          "menuName": null,
+          "caption": "Форм рез пост",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proka-товары-l",
+          "menuName": null,
+          "caption": "Товары",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proka-клиенты-l",
+          "menuName": null,
+          "caption": "Клиенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proka-пункт-погрузки-l",
+          "menuName": null,
+          "caption": "Пункт погрузки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proka-докум-поставки-l",
+          "menuName": null,
+          "caption": "Докум поставки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proka-пункт-погруз-l",
+          "menuName": null,
+          "caption": "Пункт погруз",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proka-список-барж-l",
+          "menuName": null,
+          "caption": "Список барж",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
